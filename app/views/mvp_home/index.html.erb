@@ -1,4 +1,655 @@
-<div>
-  <h1 class="font-bold text-4xl">MvpHome#index</h1>
-  <p>Find me in app/views/mvp_home/index.html.erb</p>
+
+
+
+<section class="bg-white text-center">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 lg:py-12">
+        <div class="flex flex-col space-y-4 space-y-reverse">
+            <h1 class="order-last text-lg text-gray-700">Free Open Source Tailwind CSS v4 Components</h1>
+            <h2 class="text-5xl font-bold text-red-600 sm:text-6xl">HyperRUI</h2>
+        </div>
+        <div class="mx-auto mt-6 max-w-xl space-y-6">
+            <p class="text-base/relaxed text-pretty text-gray-700">
+                HyperRUI is a collection of free Tailwind CSS components that can be used in your next project. With a range of components, you can build your next marketing website, admin dashboard, eCommerce store and much more.
+                HyperRUI is totally inspired by HyperUI and is built using Rails, Stimulus, and Tailwind CSS.
+            </p>
+            <div>
+                <ul class="flex items-center justify-center gap-6">
+                    <li class="inline-flex items-center gap-1"><span role="img" aria-hidden="true">✅</span><span class="text-sm font-medium text-gray-900">Rails methods</span></li>
+                    <li class="inline-flex items-center gap-1"><span role="img" aria-hidden="true">✅</span><span class="text-sm font-medium text-gray-900">Stimulus</span></li>
+                    <li class="inline-flex items-center gap-1"><span role="img" aria-hidden="true">✅</span><span class="text-sm font-medium text-gray-900">Tailwind</span></li>
+                </ul>
+                <p class="mt-2 text-base/relaxed text-pretty text-gray-700">Copy and paste components to build your next project.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="not-prose mx-auto max-w-lg text-center">
+                <div
+                    data-ea-publisher="hyperuidev"
+                    data-ea-type="image"
+                    data-ea-style="stickybox"
+                    class="bordered horizontal [&amp;_.ea-callout]:mb-0! [&amp;_.ea-content]:mx-0! [&amp;_.ea-content]:mt-0! [&amp;_.ea-stickybox-hide]:hidden"
+                ></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<%#  %>
+<div id="mainContent" class="mx-auto max-w-screen-xl px-4 pb-8 lg:pb-12">
+    <ul class="space-y-8">
+        <li class="space-y-4">
+            <h2 class="text-lg font-bold text-gray-900 sm:text-xl">Application UI</h2>
+            <ul class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+                <li>
+                  <%# /components/application-ui/alerts" %>
+                    <%= link_to "", class: "group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900" do%>
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📣</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Alerts</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    <% end %>
+                </li>
+                <li>
+                    <a href="/components/application-ui/login-forms">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🪧</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Auth Forms</strong>
+                                    <p class="mt-1 text-sm text-gray-700">2 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/badges">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🥁</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Badges</strong>
+                                    <p class="mt-1 text-sm text-gray-700">5 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/breadcrumbs">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🍞</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Breadcrumbs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/button-groups">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">👆</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Button Groups</strong>
+                                    <p class="mt-1 text-sm text-gray-700">5 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/checkboxes">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">✅</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Checkboxes</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/details-list">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🪪</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Details Lists</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/dividers">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🗡️</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Dividers</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/dropdown">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">💧</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Dropdowns</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/error-pages">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🥲</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Error Pages</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/filters">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🎛️</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Filters</strong>
+                                    <p class="mt-1 text-sm text-gray-700">2 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/grids">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📦</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Grids</strong>
+                                    <p class="mt-1 text-sm text-gray-700">12 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/headers">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🐤</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Header</strong>
+                                    <p class="mt-1 text-sm text-gray-700">2 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/inputs">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🔌</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Inputs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">7 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/media">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🌆</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Media</strong>
+                                    <p class="mt-1 text-sm text-gray-700">8 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/pagination">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🔢</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Pagination</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/progress">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">💈</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Progress</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/quantity-inputs">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">➕</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Quantity Inputs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/radio-groups">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📻</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Radio Groups</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/selects">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📣</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Selects</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/side-menu">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🎮</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Side Menu</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/stats">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📊</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Stats</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/steps">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🪜</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Steps</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/tables">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🍽</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Tables</strong>
+                                    <p class="mt-1 text-sm text-gray-700">7 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/tabs">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🗂</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Tabs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/textareas">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🔌</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Textareas</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/toggles">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🎚</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Toggles</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/application-ui/vertical-menu">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🍟</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Vertical Menu</strong>
+                                    <p class="mt-1 text-sm text-gray-700">9 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="space-y-4">
+            <h2 class="text-lg font-bold text-gray-900 sm:text-xl">Marketing</h2>
+            <ul class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+                <li>
+                    <a href="/components/marketing/announcements">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📣</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Announcements</strong>
+                                    <p class="mt-1 text-sm text-gray-700">8 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/banners">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🏴‍☠️</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Banners</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/blog-cards">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📰</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Blog Cards</strong>
+                                    <p class="mt-1 text-sm text-gray-700">7 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/buttons">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">👆</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Buttons</strong>
+                                    <p class="mt-1 text-sm text-gray-700">12 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/cards">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🃏</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Cards</strong>
+                                    <p class="mt-1 text-sm text-gray-700">9 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/carts">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🛒</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Carts</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/ctas">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">👋</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">CTAs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">5 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/faqs">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🤔</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">FAQs</strong>
+                                    <p class="mt-1 text-sm text-gray-700">5 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/footers">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">⚽️</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Footers</strong>
+                                    <p class="mt-1 text-sm text-gray-700">13 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/forms">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📝</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Forms</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/headers">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🗺</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Header</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/popups">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">👋</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Popups</strong>
+                                    <p class="mt-1 text-sm text-gray-700">8 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/pricings">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">💰</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Pricing</strong>
+                                    <p class="mt-1 text-sm text-gray-700">2 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/product-cards">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🙋‍♀️</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Product Cards</strong>
+                                    <p class="mt-1 text-sm text-gray-700">11 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/product-collections">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">🛍</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Product Collections</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/sections">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between">
+                                        <span aria-hidden="true" role="img" class="text-lg sm:text-xl">🧱</span>
+                                        <span class="-me-1.5 -mt-1.5 rounded-full px-2.5 py-0.5 text-xs font-medium whitespace-nowrap capitalize sm:-me-3 sm:-mt-3 false bg-blue-100 text-blue-700">updated</span>
+                                    </div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Sections</strong>
+                                    <p class="mt-1 text-sm text-gray-700">4 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/stats">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">📊</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Stats</strong>
+                                    <p class="mt-1 text-sm text-gray-700">3 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/marketing/testimonials">
+                        <div class="group relative block h-full bg-white before:absolute before:inset-0 before:rounded-md before:border-2 before:border-dashed before:border-gray-900">
+                            <div class="h-full rounded-md border-2 border-gray-900 bg-white transition group-hover:-translate-y-2 group-hover:ltr:-translate-x-2 group-hover:rtl:translate-x-2">
+                                <div class="p-4 sm:p-6">
+                                    <div class="flex items-start justify-between"><span aria-hidden="true" role="img" class="text-lg sm:text-xl">👌</span></div>
+                                    <strong class="mt-4 block font-medium text-gray-900 sm:text-lg">Testimonials</strong>
+                                    <p class="mt-1 text-sm text-gray-700">6 Components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
 </div>
