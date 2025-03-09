@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full scroll-pt-20 scroll-smooth" lang="en" dir="ltr">
   <head>
     <title><%= content_for(:title) || "Hyper Rui" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,8 +23,11 @@
   </head>
 
   <body>
-    <main class="">
+    <main class="bg-white">
+      <%= render "partials/header" %>
+      <%= render "mvp_home/partials/announcement" %>
       <%= yield %>
+      <%= render "partials/footer"%>
     </main>
   </body>
 </html>
