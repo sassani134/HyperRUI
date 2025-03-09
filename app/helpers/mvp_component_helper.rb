@@ -1,0 +1,2 @@
+module MvpComponentHelper
+end
