@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full scroll-pt-20 scroll-smooth" lang="en" dir="ltr">
   <head>
     <title><%= content_for(:title) || "Hyper Rui" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -17,14 +17,20 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
+
     <%# Includes all stylesheet files in app/assets/stylesheets %>
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= favicon_link_tag asset_path('favicon.png') %>
+
   </head>
 
   <body>
-    <main class="">
+    <main class="bg-white">
+      <%= render "partials/header" %>
+      <%= render "mvp_home/partials/announcement" %>
       <%= yield %>
+      <%= render "partials/footer"%>
     </main>
   </body>
 </html>
